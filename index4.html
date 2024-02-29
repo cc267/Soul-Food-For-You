@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Forte&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soul Food for You | Beverages</title>
+<style>
+/* Add some style to the page */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d3d3d;
+}
+.container{
+  width: 100%;
+  height: 10vh;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  background: #ffffff;
+  border-radius: 13px;
+  padding: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 1rem;
+  padding: 0 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+nav ul li:after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #7d7f86;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+nav ul li:hover::after{
+  width:100%;
+}
+header {
+      background-color: #000000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    #logo {
+  background-image: url("pics/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 100px;
+  text-indent: -9999px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.item {
+  width: 300px;
+  height: 330px;
+  margin: 10px;
+  border: 2px solid #000000;
+  box-shadow: 5px 5px 5px #747474;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+ul, li {
+  color: rgb(0, 0, 0);
+}
+#price {
+  font-size: 85%;
+  text-justify: auto;
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1 id="logo">Soul Food for You</h1>
+    <p>Note: This restaurant is not real. made only as an example</p>
+    <br />
+    <div class="container">
+      <nav>
+        <ul>
+    <a href="index.html"><li>Main</li></a>
+    <a href="index2.html"><li>Sides</li></a>
+    <a href="index3.html"><li>Desserts</li></a>
+    <a href="index4.html"><li>Beverages</li></a>
+    </ul>
+    </nav>
+    </div>
+  </header>
+      <h2>Beverages</h2>
+<div class="menu">
+<div class="item">
+    <img src="pics/beverages/brisk.jfif" alt="Brisk Iced Tea">
+    <p>Brisk Iced Tea</p>
+    <p id="price">Lemon - $1.99</p>
+    <p id="price">Raspberry - $1.99</p>
+  </div>
+  <div class="item">
+    <img src="pics/beverages/cola.jfif" alt="Coca Cola">
+    <p>Coca-Cola</p>
+    <p id="price">Zero Sugar - $1.99</p>
+    <p id="price">Original - $1.99</p>
+  </div>
+  <div class="item">
+    <img src="pics/beverages/dew.webp" alt="Mtn Dew">
+    <p>Mtn Dew</p>
+    <p id="price">Zero Sugar - $1.99</p>
+    <p id="price">Original - $1.99</p>
+  </div>
+  <div class="item">
+    <img src="pics/beverages/lemonade.jfif" alt="Lemonade">
+    <p>Bottle of Lemonade</p>
+    <p id="price">Original Lemonade - $1.99</p>
+    <p id="price">Strawberry Lemonade - $1.99</p>
+  </div>
+  <div class="item">
+    <img src="pics/beverages/sprite.webp" alt="Sprite">
+    <p>Sprite</p>
+    <p id="price">Original - $1.99</p>
+    <p id="price">Zero Sugar - $1.99</p>
+    </div>
+    <div class="item">
+      <img src="pics/beverages/starry.jfif" alt="Starry">
+      <p>Starry</p>
+      <p id="price">Original - $1.99</p>
+      <p id="price">Zero Sugar - $1.99</p>
+      </div>
+      <div class="item">
+        <img src="pics/beverages/water.webp" alt="Water">
+        <p>Bottle of Water</p>
+        <p id="price">$0.99</p>
+        </div>
+  </div>
+</div>
+</body>
+</html>
